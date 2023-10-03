@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.banner{
+    background-image:url(Novo\ Projeto.jpg);
+    background-size: contain;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    
+}
+body{
+    background-image: linear-gradient(90deg,#FFA293,#FAD274,#FFF978,#89EB76,#9FC6FF);
+}
+main{
+    background-color:#DEEFE7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+
+}
+h1{ 
+    text-align: center;
+    background-image: linear-gradient(#FFA293,#FAD274,#FFF978,#89EB76,#9FC6FF) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: dashed;
+
+}
+h2{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{ 
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:300px;
+    position:sticky;
+    left:43%;
+    right:43%;
+
+}
+h3{
+    
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
