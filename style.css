@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .banner{
-    background-image:novoprojeto.jpg;
+    background-image: url("novoprojeto.jpg");
     background-size: contain;
     text-align: center;
     color: black;
