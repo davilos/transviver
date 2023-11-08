@@ -41,3 +41,10 @@ ALTER TABLE `socios` ADD FOREIGN KEY (`id`) REFERENCES `historico_pedidos_socios
 ALTER TABLE `socios` ADD FOREIGN KEY (`usuario_id`) REFERENCES `historico_pedidos_socios` (`socio_id`);
 
 ALTER TABLE `pedidos` ADD FOREIGN KEY (`id`) REFERENCES `historico_pedidos_socios` (`pedido_id`);
+
+-- SELECTS
+SELECT * FROM usuario;
+SELECT * FROM servicos;
+SELECT * FROM pedidos;
+SELECT * FROM socios;
+SELECT * FROM historico_pedidos_socios;
